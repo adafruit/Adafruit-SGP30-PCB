@@ -1,5 +1,6 @@
 ## Adafruit SGP30 Air Quality Sensor PCB
 
+<a href="http://www.adafruit.com/products/3709"><img src="assets/3709_STEMMA.jpg?raw=true" width="500px"><br/>
 <a href="http://www.adafruit.com/products/3709"><img src="assets/3709.jpg?raw=true" width="500px"><br/>
 Click here to purchase one from the Adafruit shop</a>
 
@@ -22,7 +23,9 @@ Please note, this sensor, like all VOC/gas sensors, has variability and to get p
 
 Another nice element to this sensor is the ability to set humidity compensation for better accuracy. An external humidity sensor is required and then the RH% is written over I2C to the sensor, so it can better calculate the TVOC/eCO2 values.
 
-For your convenience we've pick-and-placed the sensor on a PCB with a 1.8V regulator and some level shifting so it can be easily used with your favorite 3.3V or 5V microcontroller.
+Nice sensor right? So we made it easy for you to get right into your next project. The surface-mount sensor is soldered onto a custom made PCB in the STEMMA QT form factor, making them easy to interface with. The STEMMA QT connectors on either side are compatible with the SparkFun Qwiic I2C connectors. This allows you to make solderless connections between your development board and the SGP30 or to chain it with a wide range of other sensors and accessories using a compatible cable.
+
+We’ve of course broken out all the pins to standard headers and added a 1.8V voltage regulator and level shifting so allow you to use it with either 3.3V or 5V systems such as the Raspberry Pi, or Metro M4 or Arduino Uno.
 
 ### License
 
